@@ -134,3 +134,86 @@ cursor: pointer;
 }
 
 
+
+@media (max-width: 500px) {
+    .container {
+     
+        grid-gap: 5px;
+        width: 100%;
+       
+    }
+    .container-items {
+        height: 150px;
+       
+    }
+    .container-items .mic {
+        position: absolute;
+        margin-left: 100px;
+        margin-bottom: 120px;
+        font-size: 7px;
+        padding: 2px;
+    }
+    .container-items .letter {
+        position: absolute;
+        font-size:30px;
+        padding-inline: 37px;
+        padding-block: 25px;
+        border-radius: 50%;  
+    }
+
+    
+.container-items .name {
+    position: absolute;
+    margin-top: 130px;
+    margin-right: 40px;
+    font-size: 10px;
+  }
+
+  .controls {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 530px;
+  
+}
+.mainControl1 {
+    margin-left: 20rem;
+    padding-inline: 20px;
+  
+    display: flex;
+}
+.mainControl2 {
+    display: none;  
+}
+.controls>p { 
+    display: none; 
+}
+
+.control-button {
+    color: white;
+    border-radius: 18px;
+    padding: 1px;
+    border-radius: 50%;
+    padding-inline: 11px;
+    font-size: 9px;
+    border: none;
+    margin-right: px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
